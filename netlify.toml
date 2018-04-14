@@ -1,5 +1,5 @@
 [build]
-publish = "public"
+publish = "themes/hugo-nederberg-theme/static"
 command = "hugo"
 
 [context.production.environment]
