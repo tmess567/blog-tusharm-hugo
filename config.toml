@@ -1,0 +1,8 @@
+baseURL = "https://blog.tusharmishra.in/"
+languageCode = "en-us"
+title = "Open Source Fever"
+theme = "hugo-nederburg-theme"
+
+[params.social]
+  email         = "tusharm@gmail.com"
+  github        = "https://github.com/tmess567"
