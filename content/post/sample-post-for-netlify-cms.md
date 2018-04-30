@@ -3,7 +3,7 @@ title: Sample Post for Netlify CMS
 author: tusharm
 type: post
 date: '2018-04-30'
-image: /media_folder/wallhaven-635067.jpg
+image: /wp-content/uploads/wallhaven-635067.jpg
 categories:
   - sample
 tags:
