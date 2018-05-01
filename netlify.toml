@@ -4,3 +4,9 @@ command = "hugo"
 
 [context.production.environment]
   HUGO_VERSION = "0.38"
+
+[[headers]]
+  for = "/*.woff"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/font-woff"
