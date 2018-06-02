@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: tmess567/blog-tusharm-hugo
+  branch: netlify
+
+publish_mode: editorial_workflow
+
+media_folder: content/wp-content/uploads
+public_folder: wp-content/uploads
+
+collections:
+  - name: post
+    label: Post
+    folder: content/post
+    create: true
+    fields:
+      - {name: title, label: Title}
+      - {name: author, label: Author}
+      - {name: type, label: Type, default: "post"}
+      - {name: date, label: Date, widget: date}
+      - {name: image, widget: "image", required: false}
+      - {name: categories, label: Categories, widget: list, required: false}
+      - {name: tags, label: Tags, widget: list, required: false}
+      - {name: body, label: Body, widget: markdown}
