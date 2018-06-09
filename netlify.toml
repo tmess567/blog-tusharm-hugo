@@ -2,8 +2,6 @@
 publish = "public"
 command = "hugo"
 
-HUGO_VERSION = "0.38"
-
 [[headers]]
   for = "/*.woff"
   [headers.values]
