@@ -40,5 +40,37 @@ jupyter nbconvert --to python notebook.ipynb
 The above command creates a notebook.py file. However this script expects a structure.
 
 ```
-.├── input│   ├── file1.txt│   ├── file2.txt│   └── file3.txt└── src    ├── notebook.py    ├── output_1.csv    └── output_2.csv
+.
+```
+
+```
+├── input
+```
+
+```
+│   ├── file1.txt
+```
+
+```
+│   ├── file2.txt
+```
+
+```
+│   └── file3.txt
+```
+
+```
+└── src
+```
+
+```
+    ├── notebook.py
+```
+
+```
+    ├── output_1.csv
+```
+
+```
+    └── output_2.csv
 ```
