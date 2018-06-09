@@ -1,5 +1,5 @@
 ---
-title: Jupyter Notebook as Output
+title: Python Notebook as Output
 author: tusharm
 type: post
 date: '2018-06-10'
