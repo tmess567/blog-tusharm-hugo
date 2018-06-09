@@ -20,10 +20,6 @@ Running and benchmarking python is easier if you have a standard place to run an
 
 ## Developing in Cloud
 
-Kaggle allows me to write python in a browser while documenting things around my code in markdown. This can help me better explain the code to the user.
-
-This is useful in cases like when my sister wanted some data manipulation scripts. I could've written a python script in vim and shared it, but it wouldn't make sense to her and even I would be confused later when I might want to revisit this (I'm learning a lot of new stuff and need to reference a lot of tricks to do things in python).
-
 https://www.kaggle.com/tusharm567
 
 As an added advantage, I get direct access to loads of public datasets to play and sharpen my skills on.
@@ -65,6 +61,25 @@ peak memory: 4121.68 MiB, increment: 3838.79 MiB
 ```
 
 > Reference: https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html
+
+## Sharing with the World
+
+Jupyter allows me to write python in a browser while documenting things around my code in markdown. This can help me better explain the code to the user.
+
+Now since I own this notebook, I might like to host the results outside of Kaggle, maybe in my blog. I can execute and export markdown which is then importable as a post into my blog.
+
+```
+sudo python3 -m pip install ipykernel
+sudo python3 -m ipykernel install --user
+```
+
+```
+jupyter nbconvert --to markdown --execute notebook.ipynb
+```
+
+This is useful in cases like when my sister wanted some data manipulation scripts. I could've written a python script in vim and shared it, but it wouldn't make sense to her and even I would be confused later when I might want to revisit this (I'm learning a lot of new stuff and need to reference a lot of tricks to do things in python).
+
+> Reference: https://ipython.readthedocs.io/en/latest/install/kernel_install.html
 
 ## Running in Production
 
