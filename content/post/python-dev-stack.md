@@ -39,6 +39,7 @@ jupyter nbconvert --to python notebook.ipynb
 
 The above command creates a notebook.py file. However this script expects a structure.
 
+
     |-- input
     |   |-- file1.txt
     |   |-- file2.txt
