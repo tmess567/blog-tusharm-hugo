@@ -21,7 +21,12 @@ Setup a Shell Script to sync the directory to Google Storage bucket every x seco
 https://cloud.google.com/storage/docs/gsutil/commands/rsync
 
 ```
-#!/bin/shwhile true  do    gsutil -m rsync -r -d /home/tusharm567/didi_data_src/ gs://didi_data_src > /tmp/sync.log 2>&1    sleep 5  done
+#!/bin/sh
+while true  
+  do    
+    gsutil -m rsync -r -d /home/tusharm567/didi_data_src/ gs://didi_data_src > /tmp/sync.log 2>&1    
+    sleep 5  
+  done
 ```
 
 Then set it to run every time GCE boots up.
@@ -54,27 +59,22 @@ table_ref = dataset_ref.table(table_name)table = bigquery.Table(table_ref)table 
 
 To load data from a Google Storage CSV file, I needed to create a job with some configurations.
 
-> The user running this should have the 
->
-> **"BigQuery Data Owner" **
->
-> role assigned to them. Search for IAM in Google Cloud Console and add user ( by Email ID ) and assign the above role.
+> The user running this should have the **"BigQuery Data Owner" **role assigned to them. Search for IAM in Google Cloud Console and add user ( by Email ID ) and assign the above role.
 
 https://googlecloudplatform.github.io/google-cloud-python/latest/bigquery/generated/google.cloud.bigquery.job.LoadJobConfig.html#google.cloud.bigquery.job.LoadJobConfig
 
 ```
-job_config = bigquery.LoadJobConfig()job_config.autodetect = Truejob_config.skip_leading_rows = 1load_job = client.load_table_from_uri(uri, dataset_ref.table(table_name), job_config=job_config)
+job_config = bigquery.LoadJobConfig()
+job_config.autodetect = True
+job_config.skip_leading_rows = 1
+load_job = client.load_table_from_uri(uri, dataset_ref.table(table_name), job_config=job_config)
 ```
 
 autodetect -> Infer the schema from File
 
 skip_leading_rows -> Leave out first row assuming header.
 
-> The user running this should have the 
->
-> **"BigQuery Job User" **
->
-> role assigned to them. Search for IAM in Google Cloud Console and add user ( by Email ID ) and assign the above role.
+> The user running this should have the **"BigQuery Job User" **role assigned to them. Search for IAM in Google Cloud Console and add user ( by Email ID ) and assign the above role.
 >
 > For More Info: https://cloud.google.com/bigquery/docs/access-control#bigquery.dataOwner
 
