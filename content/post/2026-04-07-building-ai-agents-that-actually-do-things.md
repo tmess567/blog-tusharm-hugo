@@ -2,7 +2,8 @@
 title: "Building AI Agents That Actually Do Things: Lessons from the Payments Domain"
 author: tusharm
 type: post
-date: '2026-04-07'
+date: '2026-04-01'
+image: /img/ai-agents-tool-use.png
 tags:
   - AI
   - LLM
