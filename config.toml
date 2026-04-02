@@ -9,6 +9,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
     [markup.goldmark.renderer]
       unsafe = true
 
+summaryLength = 40
+
 [params.social]
   email         = "tusharm@gmail.com"
   github        = "https://github.com/tmess567"

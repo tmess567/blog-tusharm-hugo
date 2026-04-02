@@ -18,6 +18,8 @@ Anthropic's 2026 report says developers use AI in 60% of their work but can full
 
 As someone who uses AI coding agents daily, I assumed the bottleneck was model capability. It's not. The research points to something more fundamental.
 
+<!--more-->
+
 ## The Conversation Depth Problem
 
 Most AI coding conversations are shockingly short. Looking at three large public datasets of real developer-AI interactions <sup>[[2]](#references)[[3]](#references)[[4]](#references)</sup>:

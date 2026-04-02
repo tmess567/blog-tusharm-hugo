@@ -17,6 +17,8 @@ Over the past several months, I've been building exactly this: tool-equipped LLM
 
 Here's what I've learned.
 
+<!--more-->
+
 ## The Hard Part Isn't the LLM
 
 When people think about building AI agents, they focus on the model: which LLM to use, how to write the system prompt, how to handle multi-turn conversations. Those things matter, but they're maybe 20% of the work.

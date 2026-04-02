@@ -31,6 +31,8 @@ Before I start building up the server for the application, I wanted to pen down 
   * NES: NoSQL Database Elastic Search
   * SFT: SQL Database Full Text Search
 
+<!--more-->
+
 <img class=" wp-image-222 aligncenter" src="https://i0.wp.com/blog.tusharmishra.in/wp-content/uploads/2016/09/Struct.png?resize=500%2C718" alt="struct" srcset="https://i0.wp.com/blog.tusharmishra.in/wp-content/uploads/2016/09/Struct.png?resize=209%2C300 209w, https://i0.wp.com/blog.tusharmishra.in/wp-content/uploads/2016/09/Struct.png?resize=370%2C530 370w, https://i0.wp.com/blog.tusharmishra.in/wp-content/uploads/2016/09/Struct.png?w=651 651w" sizes="(max-width: 500px) 100vw, 500px" data-recalc-dims="1" />
 
 &nbsp;
