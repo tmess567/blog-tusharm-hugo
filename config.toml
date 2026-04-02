@@ -2,6 +2,12 @@ baseURL = "https://blog.tusharmishra.in/"
 languageCode = "en-us"
 title = "Open Source Fever"
 theme = "hugo-nederburg-theme"
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params.social]
   email         = "tusharm@gmail.com"
