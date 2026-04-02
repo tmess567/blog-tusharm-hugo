@@ -3,7 +3,17 @@ title: "The Delegation Gap: Why AI Coding Agents Aren't as Autonomous as You Thi
 author: tusharm
 type: post
 date: '2026-04-02'
+description: "Analysis of 86K+ real AI coding conversations from public datasets reveals most are just 1-2 turns, 78% of failures are invisible to users, and context rot drops agent success from 45% to 8%. Original research with interactive charts."
 image: /img/delegation-gap-hero.png
+keywords:
+  - AI coding agent
+  - context rot
+  - invisible failures
+  - AI delegation
+  - developer productivity
+  - AI pair programming
+  - coding agent limitations
+  - AI autonomy
 tags:
   - AI
   - Developer Productivity
