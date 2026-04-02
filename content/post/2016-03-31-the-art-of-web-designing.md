@@ -3,7 +3,6 @@ title: The art of Web Designing
 author: tusharm
 type: post
 date: 2016-03-31T10:37:57+00:00
-url: /?p=78
 image: /wp-content/uploads/2016/03/wallhaven-74168-1200x750.jpg
 categories:
   - Uncategorized

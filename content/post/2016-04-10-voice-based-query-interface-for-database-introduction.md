@@ -3,7 +3,6 @@ title: 'Voice based query interface for database: Introduction'
 author: tusharm
 type: post
 date: 2016-04-10T03:18:23+00:00
-url: /?p=97
 image: /wp-content/uploads/2016/04/rsz_wallhaven-3382571-1200x656.png
 categories:
   - Voice based query interface for database

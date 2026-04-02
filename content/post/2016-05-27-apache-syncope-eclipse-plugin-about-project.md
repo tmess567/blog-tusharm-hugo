@@ -3,7 +3,6 @@ title: 'Apache SYNCOPE Eclipse Plugin: About Project'
 author: tusharm
 type: post
 date: 2016-05-27T08:56:41+00:00
-url: /?p=121
 image: /wp-content/uploads/2016/03/wallhaven-2842171-1200x675.jpg
 categories:
   - Apache SYNCOPE (GSOC Project)

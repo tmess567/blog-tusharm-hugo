@@ -3,7 +3,6 @@ title: 'DLTC: End of Project'
 author: tusharm
 type: post
 date: 2016-04-08T12:15:53+00:00
-url: /?p=86
 image: /wp-content/uploads/2016/04/wallhaven-224671-1200x675.png
 categories:
   - Uncategorized

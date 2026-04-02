@@ -3,7 +3,6 @@ title: 'Server Setup: Voice based query interface for database'
 author: tusharm
 type: post
 date: 2016-10-02T19:38:35+00:00
-url: /?p=225
 image: /wp-content/uploads/2016/10/LI64Q1475437605.jpg
 categories:
   - Voice based query interface for database

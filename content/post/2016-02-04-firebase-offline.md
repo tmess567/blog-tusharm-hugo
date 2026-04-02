@@ -3,7 +3,6 @@ title: Firebase Offline
 author: tusharm
 type: post
 date: 2016-02-04T09:16:38+00:00
-url: /?p=49
 image: /wp-content/uploads/2016/02/firebase-1200x630.png
 categories:
   - Firebase

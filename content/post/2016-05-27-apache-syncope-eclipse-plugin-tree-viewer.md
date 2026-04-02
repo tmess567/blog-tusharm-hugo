@@ -3,7 +3,6 @@ title: 'Apache SYNCOPE Eclipse Plugin: Tree View'
 author: tusharm
 type: post
 date: 2016-05-27T10:28:47+00:00
-url: /?p=133
 image: /wp-content/uploads/2016/03/wallhaven-2842171-1200x675.jpg
 categories:
   - Apache SYNCOPE (GSOC Project)

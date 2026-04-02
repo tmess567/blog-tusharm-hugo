@@ -3,7 +3,6 @@ title: 'Voice based query interface for database: Stanford Parser'
 author: Pulkit Gupta
 type: post
 date: 2016-04-10T15:27:05+00:00
-url: /?p=93
 image: /wp-content/uploads/2016/04/rsz_wallhaven-3382571-1200x656.png
 categories:
   - Voice based query interface for database

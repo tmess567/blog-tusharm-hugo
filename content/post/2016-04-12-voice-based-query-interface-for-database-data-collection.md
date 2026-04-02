@@ -3,7 +3,6 @@ title: 'Voice based query interface for database: Data Collection'
 author: Shriya Arora
 type: post
 date: 2016-04-12T05:09:31+00:00
-url: /?p=104
 image: /wp-content/uploads/2016/04/rsz_wallhaven-3382571-1200x656.png
 categories:
   - Voice based query interface for database

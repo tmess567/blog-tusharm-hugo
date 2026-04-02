@@ -3,7 +3,6 @@ title: 'Nitrous : Development on the cloud'
 author: tusharm
 type: post
 date: 2016-04-19T11:10:11+00:00
-url: /?p=115
 image: /wp-content/uploads/2016/04/nos.jpg
 categories:
   - Uncategorized

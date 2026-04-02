@@ -3,7 +3,6 @@ title: Porting Ubuntu Touch
 author: tusharm
 type: post
 date: 2015-08-26T14:16:12+00:00
-url: /?p=101
 image: /wp-content/uploads/2015/08/ubuntu_touch_foto-655x436.jpg
 categories:
   - Project

@@ -3,7 +3,6 @@ title: GSoC 2016 Work Submission
 author: tusharm
 type: post
 date: 2016-08-21T13:23:16+00:00
-url: /?p=197
 image: /wp-content/uploads/2016/03/wallhaven-2842171-1200x675.jpg
 categories:
   - Apache SYNCOPE (GSOC Project)

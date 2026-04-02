@@ -3,7 +3,6 @@ title: Structure of Voice based query interface for database
 author: tusharm
 type: post
 date: 2016-09-30T07:56:47+00:00
-url: /?p=221
 image: /wp-content/uploads/2016/04/rsz_wallhaven-3382571-1200x656.png
 categories:
   - Voice based query interface for database

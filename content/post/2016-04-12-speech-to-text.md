@@ -3,7 +3,6 @@ title: 'Voice based query interface for database: Speech-to-Text'
 author: Anmol Rastogi
 type: post
 date: 2016-04-12T06:37:04+00:00
-url: /?p=112
 image: /wp-content/uploads/2016/04/rsz_wallhaven-3382571-1200x656.png
 categories:
   - Voice based query interface for database

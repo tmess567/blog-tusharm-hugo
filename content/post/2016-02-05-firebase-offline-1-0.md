@@ -3,7 +3,6 @@ title: Firebase Offline 1.0
 author: tusharm
 type: post
 date: 2016-02-05T14:45:32+00:00
-url: /?p=54
 categories:
   - Firebase
 tags:

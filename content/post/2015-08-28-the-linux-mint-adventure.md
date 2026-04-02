@@ -3,7 +3,6 @@ title: The Linux Mint Adventure
 author: tusharm
 type: post
 date: 2015-08-28T09:26:38+00:00
-url: /?p=20
 image: /wp-content/uploads/2015/08/mintlogo-color-1.jpg
 categories:
   - Project

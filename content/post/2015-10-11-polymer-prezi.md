@@ -3,7 +3,6 @@ title: Polymer Presentation for Maker Party
 author: tusharm
 type: post
 date: 2015-10-11T15:22:46+00:00
-url: /?p=33
 image: /wp-content/uploads/2015/10/download.png
 categories:
   - Uncategorized

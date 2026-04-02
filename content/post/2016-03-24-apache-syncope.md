@@ -3,7 +3,6 @@ title: Apache SYNCOPE
 author: tusharm
 type: post
 date: 2016-03-24T11:47:04+00:00
-url: /?p=65
 image: /wp-content/uploads/2016/03/wallhaven-2842171-1200x675.jpg
 categories:
   - Apache SYNCOPE (GSOC Project)

@@ -3,7 +3,6 @@ title: Query Ranking in Real Life (Part 1)
 author: tusharm
 type: post
 date: 2016-11-23T18:28:14+00:00
-url: /?p=233
 image: /wp-content/uploads/2016/10/LI64Q1475437605.jpg
 categories:
   - Uncategorized

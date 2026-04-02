@@ -3,7 +3,6 @@ title: Summer Internship Presentation
 author: tusharm
 type: post
 date: 2016-08-22T05:03:45+00:00
-url: /?p=208
 image: /wp-content/uploads/2016/08/wallhaven-246627.jpg
 categories:
   - Uncategorized

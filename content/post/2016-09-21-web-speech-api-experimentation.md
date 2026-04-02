@@ -3,7 +3,6 @@ title: Web Speech API Experimentation
 author: tusharm
 type: post
 date: 2016-09-21T06:31:30+00:00
-url: /?p=213
 image: /wp-content/uploads/2016/10/LI64Q1475437605.jpg
 categories:
   - Voice based query interface for database
