@@ -1,0 +1,30 @@
+{{ $width := .Get "width" | default "700" }}
+{{ $height := .Get "height" | default "350" }}
+<div style="max-width:{{ $width }}px;margin:1em auto;">
+<canvas id="{{ .Get "id" }}" width="{{ $width }}" height="{{ $height }}"></canvas>
+</div>
+<script>
+(function() {
+  function init() {
+    {{ .Inner | safeJS }}
+  }
+  function tryInit() {
+    if (typeof Chart !== 'undefined' && typeof ChartDataLabels !== 'undefined') { init(); return; }
+    setTimeout(tryInit, 100);
+  }
+  if (!document.getElementById('chartjs-script')) {
+    var s = document.createElement('script');
+    s.id = 'chartjs-script';
+    s.src = 'https://cdn.jsdelivr.net/npm/chart.js@4';
+    s.onload = function() {
+      var s2 = document.createElement('script');
+      s2.src = 'https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2';
+      s2.onload = function() { Chart.register(ChartDataLabels); document.dispatchEvent(new Event('charts-ready')); };
+      document.head.appendChild(s2);
+    };
+    document.head.appendChild(s);
+  }
+  if (typeof Chart !== 'undefined' && typeof ChartDataLabels !== 'undefined') { setTimeout(init, 0); }
+  else { document.addEventListener('charts-ready', init); tryInit(); }
+})();
+</script>
